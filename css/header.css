@@ -1,0 +1,70 @@
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-brand {
+    width: 180px;
+}
+
+/*nav-left*/
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 15px;
+}
+
+.nav-main ul li a {
+    padding: 3px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 2px solid #F9CA0E;
+    color: #F9CA0E;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.menu-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    font-size: 1.8rem;
+    display: none;
+    color: #E3671A  ;
+
+}
+
+.menu-index {
+    font-size: 1.3em;
+}
+
+.menu-plansInstallation {
+    font-size: 1.3em;
+}
+
+.menu-payment {
+    font-size: 1.3em;
+}
+
+.menu-contactUs {
+    font-size: 1.3em;
+}
+
+hr {
+    margin: 10px 0;
+    background: #E3671A;
+    border: 1.5px solid #E3671A;
+}

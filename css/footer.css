@@ -1,0 +1,39 @@
+.footer-links {
+    background: #555555;
+    color: #777777;
+    font-size: 12px;
+    padding: 35px 0;
+  }
+  
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .footer-container ul {
+    margin: 0 auto;
+  }
+  
+  .footer-container ul li {
+    line-height: 1.8;
+    
+  }
+
+  .footer-container ul li a {
+    color: #fff;
+  }
+  
+  /* Footer */
+  
+  .footer {
+    background: #555555;
+    color: #777777;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+  
+  }
