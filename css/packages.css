@@ -109,7 +109,8 @@ color: #E3671A;
 }
 
 .installation-content h4,
-.installation-content p {
+.installation-content p,
+.installation-content ul li {
     text-align: center;
     color: #777;
 }
@@ -128,10 +129,45 @@ color: #E3671A;
 }
 
 .installation-content p {
-    padding-bottom: 15px;
+    padding: 15px;
+    font-size: 1rem;
+}
+.installation-content ul li {
+    padding: 15px;
     font-size: 1rem;
 }
 
+.btn-set-date-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-set-date {
+    color: white;
+    margin-bottom: 15px;
+    padding: 15px 30px;
+    background-color: #E3671A;
+    text-transform: uppercase;
+    border-radius: 5px;text-align: center;
+}
+
+.btn-set-date i {
+    padding: 0 5px;
+    font-size: 1.3rem;
+}
+
+.btn-set-date:hover {
+    opacity: 0.8;
+}
+
+
+
+.send-info {
+    font-weight: bold;
+}
 .installation-card-title {
     text-align: center;
     color: #E3671A;
