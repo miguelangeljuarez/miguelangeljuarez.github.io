@@ -12,7 +12,7 @@
   .links {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
   }
   
   .links a {
@@ -24,4 +24,20 @@
     color: #fff;
     font-size: 2rem;
     padding: 15px;
+  }
+
+  .documents {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .documents a {
+    margin: 10px 0;
+  }
+
+  .documents a i {
+    color: #fff;
+    padding: 5px;
+    font-size: 1.5rem;
   }

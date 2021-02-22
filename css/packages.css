@@ -19,7 +19,7 @@ color: #E3671A;
 }
 
 .packages .card {
-    width: 330px;
+    width: 400px;
     height: 100%;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -27,6 +27,7 @@ color: #E3671A;
     text-align: center;
     transition: all 0.25s;
     background: #fff;
+    padding-bottom: 20px;
 }
 
 .packages .card:hover {
@@ -35,20 +36,19 @@ color: #E3671A;
 }
 
 .packages .card img {
-    width: 330px;
-    height: 220px;
+    width: 400px;
 }
 
 .packages .card h4 {
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #777;
     padding-bottom: 15px;
 }
 
 .packages .card p {
     padding-bottom: 25px;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 300;
     color: #777;
 }
@@ -62,16 +62,21 @@ color: #E3671A;
 }
 
 .packages .card a {
-    color: rgb(227, 103, 26);
+    background: rgb(227, 103, 26);
+    padding: 15px 30px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
 }
 
 .packages .card a:hover {
-    color: #F9CA0E;
+    opacity: 0.8;
 }
 
 .title-package {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     padding: 15px;
     color: rgb(227, 103, 26);
 }
@@ -119,10 +124,12 @@ color: #E3671A;
 }
 .installation-content h4 {
     padding: 15px;
+    font-size: 1.3rem;
 }
 
 .installation-content p {
     padding-bottom: 15px;
+    font-size: 1rem;
 }
 
 .installation-card-title {

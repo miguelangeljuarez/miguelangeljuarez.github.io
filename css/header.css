@@ -1,5 +1,5 @@
 .nav-main {
-    font-size: 17px;
+    font-size: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,12 +22,15 @@
 }
 
 .nav-main ul li a {
-    padding: 3px;
+    padding: 8px;
 }
 
 .nav-main ul li a:hover {
-    border-bottom: 2px solid #F9CA0E;
-    color: #F9CA0E;
+    /*border-bottom: 2px solid #F9CA0E;
+    color: #F9CA0E;*/
+    color: white;
+    background-color: #E3671A;
+    border-radius: 3px;
 }
 
 .nav-main ul.nav-menu {
@@ -66,5 +69,5 @@
 hr {
     margin: 10px 0;
     background: #E3671A;
-    border: 1.5px solid #E3671A;
+    border: 1.8px solid #E3671A;
 }
